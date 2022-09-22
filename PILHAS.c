@@ -34,7 +34,7 @@ void removeItem(Pilha **p){ //remoção de item na Pilha, remove o primeiro item
         printf("Pilha vazia!\n");
         return;
     }
-    Pilha *aux = *p; //vamos usar aux p remover
+    Pilha *aux = *p; //vamos usar aux para remover
     *p = (*p)->prox; //faz p olhar para o segundo item pq vamos remover o primeiro
     free(aux);
 }

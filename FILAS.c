@@ -18,7 +18,7 @@ int main(){
     return 0;
 }
 
-//FUNÇÔES
+//FUNÇÕES
 Fila *alocaNo(int k){
     Fila *novo = (Fila *)malloc(sizeof(Fila));
     if(novo == NULL){
